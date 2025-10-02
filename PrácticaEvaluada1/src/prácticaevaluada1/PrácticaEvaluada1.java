@@ -26,12 +26,12 @@ public class PrácticaEvaluada1 {
 
         String lectura;
         double salario;
-        double impuestoSalario = salario * 100 / 0.10;
+        
         lectura = JOptionPane.showInputDialog("Digite su salario en colones:");
         salario = Double.parseDouble(lectura);
 
         //IF e IF ELSE:
-        if (salario >= 1352000) {
+        /*if (salario >= 1352000) {
             impuestoSalario + salario;
             System.out.println("");
 
